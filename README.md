@@ -22,8 +22,8 @@ nano /storage/.config/autostart.sh
 
 ```
 # Uncomment appropriate line
-#/storage/ILI9341 # 2.4" TFT
-#/storage/ILI9342 # 2.6" TFT
+#/storage/tft/ILI9341 & # 2.4" TFT
+#/storage/tft/ILI9342 & # 2.6" TFT
 ```
 ctrl+x
 y
@@ -62,3 +62,8 @@ mount
 move retrogame folder to /storage
 
 * ssh in
+```
+nano /etc/udev/rules.d/10-retrogame.rules
+SUBSYSTEM=="input", ATTRS{name}=="retrogame", ENV{ID_INPUT_KEYBOARD}="1"
+```
+
