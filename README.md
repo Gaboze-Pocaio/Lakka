@@ -34,8 +34,6 @@ The ILI9341is typically available from 2.2" to 3.2" whereas the ILI9342 comes in
 	- [ ] [Apple Pi Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 	- [ ] [Pi Bakery](http://www.pibakery.org/download.html)
 
-
-
 #### Why make me download [Lakka](http://www.lakka.tv/get/) from source?
 > Good question, here's why!
 
@@ -47,7 +45,124 @@ You also get to lear a few things here and there ;)
 
 
 
+## First Boot
 
+> Vanilla [Lakka](http://www.lakka.tv/)
+
+- [ ] HDMI Cable from Pi to Monitor
+- [ ] USB Keyboard into USB on Pi
+- [ ] Insert Imaged SD Card
+- [ ] USB Cable to USB on Pi from Power Source *(You can use any USB Port on)*
+
+| ![Lakka First Boot](images/000-boot.jpg) |
+|:--|
+| *You will see the [Lakka](http://www.lakka.tv/) Flower show up on your screen* |
+
+
+
+#### Automatic Resizing
+
+> Just wait, let [Lakka](http://www.lakka.tv/) reboot
+
+On first boot, you will see a list of *resizing* and *automatic commands* being run. Don't stress, this is normal.
+
+| ![Lakka GUI](images/001-menu.jpg) |
+|:--|
+| [Lakka](http://www.lakka.tv/) will reboot on it's own into the **Graphical User Inteface** *(GUI)* |
+
+
+
+## Initial Setup
+
+> Get your keyboard out
+
+Navigate the GUI usingg your keyboard's arrow keys
+
+
+
+#### Settings
+
+| ![Lakka GUI](images/002-settings.jpg) |
+|:--|
+| *Navigate to **Settings*** |
+
+
+
+#### User Interface
+
+| ![Lakka GUI](images/003-user-interface.jpg) |
+|:--|
+| *Navigate to **User Interface** and hit **ENTER*** |
+
+
+
+#### Advanced Settings
+
+| ![Lakka GUI](images/004-advanced-settings-off.jpg) | ![Lakka GUI](images/004-advanced-settings-on.jpg) |
+| :------------------------------------------------- | :------------------------------------------------ |
+| *Navigate to **Show Advanced Settings***           | *and hit **RIGHT ARROW** to enable*               |
+
+
+
+#### Enable Services
+
+| ![Lakka GUI](images/005-services.jpg) | ![Lakka GUI](images/005-services-details.jpg) |
+|:--|:--|
+| *Navigate to back to **Services** (use BACKSPACE to go back a level* | *using **RIGHT ARROW** turn on **SSH Enable** and **SAMBA Enable*** |
+
+
+
+#### Wi-Fi
+
+| ![Lakka GUI](images/006-wireless.jpg) |
+|:--|
+| *Navigate to **Wi-Fi** and hit **ENTER*** |
+| *Select Your SSID and hit **ENTER*** |
+| *Enter your password and hit **ENTER*** |
+
+
+
+#### Network Information
+
+| ![Lakka GUI](images/008-information.jpg) | ![Lakka GUI](images/008-information-network.jpg) |![Lakka GUI](images/008-information-network-interface.jpg) |
+|:--|:--|
+| *Navigate back to the **Main Menu** and Select **Configurations*** | *Select **Network Information*** | *Any connections will be listed here* |
+
+
+
+#### More Input
+
+| ![Lakka GUI](images/009-input.jpg) | ![Lakka GUI](images/009-input-unified-menu-control.jpg) |
+|:--|:--|
+| *Navigate to **Settings** and select **Input*** |  *using **RIGHT ARROW** turn on **Unified Menu Controls***|
+
+> WARNING: After setting the **Unified Menu Controls** to **ON** you will need to use the *Z* and *X* keys on your keyboard for **OK & Cancel**.
+
+| ![Lakka GUI](images/009-input-menu-toggle.jpg) | ![Lakka GUI](images/009-input-menu-swap.jpg) |
+|:--|:--|
+| *Navigate to **Menu Toggle Gamepad Combo** and select **Start + Select** (Used to exit games)* |  *Navigate to **Menu Swap OK & Cancel** and select **on** (Z and X are now reversed)*|
+
+
+#### Saving the Configuration
+> All that effort, better believe you want to save it!
+
+| ![Lakka GUI](images/007-configurations.jpg) | ![Lakka GUI](images/007-configurations-save.jpg) |
+|:--|:--|
+| *Navigate to **Main Menu** and select **Configurations*** |  *Select and confirm **Save Current Configuration***|
+
+#### Shutdown or Reboot
+
+| ![Lakka GUI](images/010-shutdown.jpg) |
+|:--|
+| *Navigate to **Main Menu** and select **Reboot** or **Shutdown** This depends on how much energy you have left* |
+
+
+
+
+
+
+
+-------------
 
 
 
