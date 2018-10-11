@@ -42,7 +42,14 @@ Yes, there are other sources *(GitHub, Google Code, Forums)* where you can downl
 
 We have seen everything from *Keystroke Loggers, Four Way WiFi Handshake, Reverse Tunnel, Snoop, Iptable Masquerading*...  ...you get the point. And we want to keep you safe. Again, it's about **trust** and **reputation**
 
-You also get to lear a few things here and there ;)
+You also get to learn a few things here and there ;)
+
+## Available for
+> But Not Limited To
+
+| <img src=images/gaboze.jpg/> |<img src=images/gabozeplus.jpg/> |<img src=images/gabozepia.jpg/> |
+|:--:|:--:|:--:|
+| *Gaboze Pocaio* | *Gaboze Pocaio Plus* | *Gaboze Pocaio ???* |
 
 ## First Boot
 
