@@ -209,11 +209,13 @@ Drag and drop **retroarch.cfg** into */storage* folder
 
 Now with all the above items in place, it's time to edit a few *files* and *create commands*
 
+### SSH into your Pi
+
 In your terminal applications, **SSH** into the pi, the password is *root*
 
 | <img src=images/ssh-001.jpg/> | <img src=images/ssh-002.jpg/> |
 |:--:|:--:|
-| *ssh* |  *password* |
+| *ssh in via terminal* |  *password is **root*** |
 
 ```shell
 $ ssh root@[ip_address]
@@ -222,16 +224,31 @@ $ ssh root@[ip_address]
 By default, you will be enter into the */storage* folder.
 
 ### Change access permissions to the *display drivers*
+
+| <img src=images/ssh-003.jpg/> | <img src=images/ssh-004.jpg/> |
+|:--:|:--:|
+| *ssh success* |  *access premission change* |
+
 ```shell
 $ chmod 777 tft/ILI9341 tft/ILI9342
 ```
 
 ### Change access permissions to *retrogame*
+
+| <img src=images/ssh-005.jpg/> |
+|:--:|
+| *access premission change* |
+
 ```shell
 $ chmod 777 -R retrogame
 ```
 
 ### Create an autostart script
+
+| <img src=images/ssh-006.jpg/> |<img src=images/ssh-007.jpg/> |<img src=images/ssh-008.jpg/> |<img src=images/ssh-009.jpg/> |
+|:--:|:--:|:--:|:--:|
+| *create script file* | *blank file* | *edit the file* | *uncomment and save* |
+
 ```shell
 $ nano /storage/.config/autostart.sh
 ```
@@ -259,6 +276,10 @@ Now hit *ctrl+x* and hit *y*
 
 ### Update the Rules
 
+| <img src=images/ssh-013.jpg/> |<img src=images/ssh-014.jpg/> |<img src=images/ssh-015.jpg/> |
+|:--:|:--:|:--:|
+| *create script file* | *blank file* | *edit and save file* |
+
 Create a rules file
 ```shell
 nano /etc/udev/rules.d/10-retrogame.rules
@@ -276,6 +297,10 @@ Hit *ctrl+x* and hit *y*
 
 Your SSH session should still be open on your desktop.
 
+| <img src=images/ssh-011.jpg/> |< img src=images/ssh-012.jpg/> |
+|:--:|:--:|
+| *back to shell* | *shutdown* |
+
 * Shutdown
 ```shell
 $ shutdown now
@@ -286,8 +311,12 @@ Once the Raspberry Pi has fully shutdown (no activity light blinking)
 * [ ] Mount the SD Card on your computer
 
 Once the SD Card mounts onto your computer you will see a directory called *overlays*
-Drag and drop the file named **pwm-audio-pi-zero-overlay.dtbo** into that directory (it's in the repo you downloaded)
 
+| <img src=images/folder.jpg/> |
+|:--:|
+| *SD Card files* |
+
+Drag and drop the file named **pwm-audio-pi-zero-overlay.dtbo** into that directory (it's in the repo you downloaded)
 Once that is done, find the file named **config.txt** located in the root of the SD Card
 Open that file with your favorite text editor and after the lines
 
