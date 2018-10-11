@@ -53,7 +53,7 @@ You also get to lear a few things here and there ;)
 * [ ] Insert Imaged SD Card
 * [ ] USB Cable to USB on Pi from Power Source *(You can use any USB Port on)*
 
-| <img src=images/000-boot.jpg  width="100%"/> |
+| <img src=images/000-boot.jpg/> |
 |:--|
 | *You will see the [Lakka](http://www.lakka.tv/) Flower show up on your screen* |
 
@@ -63,7 +63,7 @@ You also get to lear a few things here and there ;)
 
 On first boot, you will see a list of *resizing* and *automatic commands* being run. Don't stress, this is normal.
 
-| <img src=images/001-menu.jpg  width="100%"/> |
+| <img src=images/001-menu.jpg/> |
 |:--|
 | [Lakka](http://www.lakka.tv/) will reboot on it's own into the **Graphical User Inteface** *(GUI)* |
 
@@ -74,31 +74,31 @@ Navigate the GUI using your keyboard's arrow keys, what follows is a paint by nu
 
 ### Settings
 
-| <img src=images/002-settings.jpg  width="100%"/> |
+| <img src=images/002-settings.jpg/> |
 |:--|
 | *Navigate to **Settings*** |
 
 ### User Interface
 
-| <img src=images/003-user-interface.jpg  width="100%"/> |
+| <img src=images/003-user-interface.jpg/> |
 |:--|
 | *Navigate to **User Interface** and hit **ENTER*** |
 
 ### Advanced Settings
 
-| <img src=images/004-advanced-settings-off.jpg  width="50%"/> | <img src=images/004-advanced-settings-on.jpg  width="50%"/> |
+| <img src=images/004-advanced-settings-off.jpg/> | <img src=images/004-advanced-settings-on.jpg/> |
 |:--|:--|
 | *Navigate to **Show Advanced Settings***           | *and hit **RIGHT ARROW** to enable*               |
 
 ### Enable Services
 
-| <img src=images/005-services.jpg  width="50%"/> | <img src=images/005-services-details.jpg  width="50%"/> |
+| <img src=images/005-services.jpg/> | <img src=images/005-services-details.jpg/> |
 |:--|:--|
 | *Navigate to back to **Services** (use BACKSPACE to go back a level* | *using **RIGHT ARROW** turn on **SSH Enable** and **SAMBA Enable*** |
 
 ### Wi-Fi
 
-| <img src=images/006-wireless.jpg  width="100%"/> |
+| <img src=images/006-wireless.jpg/> |
 |:--|
 | *Navigate to **Wi-Fi** and hit **ENTER*** |
 | *Select Your SSID and hit **ENTER*** |
@@ -106,32 +106,32 @@ Navigate the GUI using your keyboard's arrow keys, what follows is a paint by nu
 
 ### Network Information
 
-| <img src=images/008-information.jpg  width="33%"/> | <img src=images/008-information-network.jpg  width="33%"/> |<img src=images/008-information-network-interface.jpg  width="33%"/> |
+| <img src=images/008-information.jpg/> | <img src=images/008-information-network.jpg/> |<img src=images/008-information-network-interface.jpg/> |
 |:--|:--|:--|
 | *Navigate back to the **Main Menu** and Select **Configurations*** | *Select **Network Information*** | *Any connections will be listed here* |
 
 ### More Input
 
-| <img src=images/009-input.jpg  width="50%"/> | <img src=images/009-input-unified-menu-control.jpg  width="50%"/> |
+| <img src=images/009-input.jpg/> | <img src=images/009-input-unified-menu-control.jpg/> |
 |:--|:--|
 | *Navigate to **Settings** and select **Input*** |  *using **RIGHT ARROW** turn on **Unified Menu Controls***|
 
 > WARNING: After setting the **Unified Menu Controls** to **ON** you will need to use the *Z* and *X* keys on your keyboard for **OK & Cancel**.
 
-| <img src=images/009-input-menu-toggle.jpg  width="50%"/> | <img src=images/009-input-menu-swap.jpg  width="50%"/> |
+| <img src=images/009-input-menu-toggle.jpg/> | <img src=images/009-input-menu-swap.jpg/> |
 |:--|:--|
 | *Navigate to **Menu Toggle Gamepad Combo** and select **Start + Select** (Used to exit games)* |  *Navigate to **Menu Swap OK & Cancel** and select **on** (Z and X are now reversed)*|
 
 ### Saving the Configuration
 > All that effort, better believe you want to save it!
 
-| <img src=images/007-configurations.jpg  width="50%"/> | <img src=images/007-configurations-save.jpg  width="50%"/> |
+| <img src=images/007-configurations.jpg/> | <img src=images/007-configurations-save.jpg/> |
 |:--|:--|
 | *Navigate to **Main Menu** and select **Configurations*** |  *Select and confirm **Save Current Configuration***|
 
 ### Shutdown or Reboot
 
-| <img src=images/010-shutdown.jpg  width="100%"/> |
+| <img src=images/010-shutdown.jpg/> |
 |:--|
 | *Navigate to **Main Menu** and select **Reboot** or **Shutdown** This depends on how much energy you have left* |
 
@@ -163,7 +163,7 @@ Some files are for reference, some are required, but we figured we give you the 
 First, you will need to know the IP address of your Raspberry Pi
 *Here's a polite reminder from before*
 
-| <img src=images/008-information.jpg  width="33%"/> | <img src=images/008-information-network.jpg  width="33%"/> |<img src=images/008-information-network-interface.jpg  width="33%"/> |
+| <img src=images/008-information.jpg/> | <img src=images/008-information-network.jpg/> |<img src=images/008-information-network-interface.jpg/> |
 |:--|:--|:--|
 | *Navigate back to the **Main Menu** and Select **Configurations*** | *Select **Network Information*** | *Any connections will be listed here* |
 
@@ -211,7 +211,7 @@ Now with all the above items in place, it's time to edit a few *files* and *crea
 
 In your terminal applications, **SSH** into the pi, the password is *root*
 
-| <img src=images/ssh-001.jpg  width="50%"/> | <img src=images/ssh-002.jpg  width="50%"/> |
+| <img src=images/ssh-001.jpg/> | <img src=images/ssh-002.jpg/> |
 |:--:|:--:|
 | *ssh* |  *password* |
 
