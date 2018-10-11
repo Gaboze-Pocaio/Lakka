@@ -1,5 +1,4 @@
 # Lakka for Gaboze Pocaio
-
 > Interested in running [Lakka](http://www.lakka.tv/) on your small screen TFT?
 > Look No Further, and Follow Along!
 
