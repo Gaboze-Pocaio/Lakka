@@ -1,4 +1,5 @@
 # Lakka for Gaboze Pocaio
+
 > Interested in running [Lakka](http://www.lakka.tv/) on your small screen TFT?
 > Look No Further, and Follow Along!
 
@@ -52,7 +53,7 @@ You also get to lear a few things here and there ;)
 * [ ] Insert Imaged SD Card
 * [ ] USB Cable to USB on Pi from Power Source *(You can use any USB Port on)*
 
-| <img src=images/000-boot.jpg  width="350px"/> |
+| <img src=images/000-boot.jpg  width="100%"/> |
 |:--|
 | *You will see the [Lakka](http://www.lakka.tv/) Flower show up on your screen* |
 
@@ -62,7 +63,7 @@ You also get to lear a few things here and there ;)
 
 On first boot, you will see a list of *resizing* and *automatic commands* being run. Don't stress, this is normal.
 
-| <img src=images/001-menu.jpg  width="350px"/> |
+| <img src=images/001-menu.jpg  width="100%"/> |
 |:--|
 | [Lakka](http://www.lakka.tv/) will reboot on it's own into the **Graphical User Inteface** *(GUI)* |
 
@@ -73,31 +74,31 @@ Navigate the GUI using your keyboard's arrow keys, what follows is a paint by nu
 
 ### Settings
 
-| <img src=images/002-settings.jpg  width="350px"/> |
+| <img src=images/002-settings.jpg  width="100%"/> |
 |:--|
 | *Navigate to **Settings*** |
 
 ### User Interface
 
-| <img src=images/003-user-interface.jpg  width="350px"/> |
+| <img src=images/003-user-interface.jpg  width="100%"/> |
 |:--|
 | *Navigate to **User Interface** and hit **ENTER*** |
 
 ### Advanced Settings
 
-| <img src=images/004-advanced-settings-off.jpg  width="350px"/> | <img src=images/004-advanced-settings-on.jpg  width="350px"/> |
-| :------------------------------------------------* | :-----------------------------------------------* |
+| <img src=images/004-advanced-settings-off.jpg  width="50%"/> | <img src=images/004-advanced-settings-on.jpg  width="50%"/> |
+|:--|:--|
 | *Navigate to **Show Advanced Settings***           | *and hit **RIGHT ARROW** to enable*               |
 
 ### Enable Services
 
-| <img src=images/005-services.jpg  width="350px"/> | <img src=images/005-services-details.jpg  width="350px"/> |
+| <img src=images/005-services.jpg  width="50%"/> | <img src=images/005-services-details.jpg  width="50%"/> |
 |:--|:--|
 | *Navigate to back to **Services** (use BACKSPACE to go back a level* | *using **RIGHT ARROW** turn on **SSH Enable** and **SAMBA Enable*** |
 
 ### Wi-Fi
 
-| <img src=images/006-wireless.jpg  width="350px"/> |
+| <img src=images/006-wireless.jpg  width="100%"/> |
 |:--|
 | *Navigate to **Wi-Fi** and hit **ENTER*** |
 | *Select Your SSID and hit **ENTER*** |
@@ -105,32 +106,32 @@ Navigate the GUI using your keyboard's arrow keys, what follows is a paint by nu
 
 ### Network Information
 
-| <img src=images/008-information.jpg  width="350px"/> | <img src=images/008-information-network.jpg  width="350px"/> |<img src=images/008-information-network-interface.jpg  width="350px"/> |
-|:--|:--|
+| <img src=images/008-information.jpg  width="33%"/> | <img src=images/008-information-network.jpg  width="33%"/> |<img src=images/008-information-network-interface.jpg  width="33%"/> |
+|:--|:--|:--|
 | *Navigate back to the **Main Menu** and Select **Configurations*** | *Select **Network Information*** | *Any connections will be listed here* |
 
 ### More Input
 
-| <img src=images/009-input.jpg  width="350px"/> | <img src=images/009-input-unified-menu-control.jpg  width="350px"/> |
+| <img src=images/009-input.jpg  width="50%"/> | <img src=images/009-input-unified-menu-control.jpg  width="50%"/> |
 |:--|:--|
 | *Navigate to **Settings** and select **Input*** |  *using **RIGHT ARROW** turn on **Unified Menu Controls***|
 
 > WARNING: After setting the **Unified Menu Controls** to **ON** you will need to use the *Z* and *X* keys on your keyboard for **OK & Cancel**.
 
-| <img src=images/009-input-menu-toggle.jpg  width="350px"/> | <img src=images/009-input-menu-swap.jpg  width="350px"/> |
+| <img src=images/009-input-menu-toggle.jpg  width="50%"/> | <img src=images/009-input-menu-swap.jpg  width="50%"/> |
 |:--|:--|
 | *Navigate to **Menu Toggle Gamepad Combo** and select **Start + Select** (Used to exit games)* |  *Navigate to **Menu Swap OK & Cancel** and select **on** (Z and X are now reversed)*|
 
 ### Saving the Configuration
 > All that effort, better believe you want to save it!
 
-| <img src=images/007-configurations.jpg  width="350px"/> | <img src=images/007-configurations-save.jpg  width="350px"/> |
+| <img src=images/007-configurations.jpg  width="50%"/> | <img src=images/007-configurations-save.jpg  width="50%"/> |
 |:--|:--|
 | *Navigate to **Main Menu** and select **Configurations*** |  *Select and confirm **Save Current Configuration***|
 
 ### Shutdown or Reboot
 
-| <img src=images/010-shutdown.jpg  width="350px"/> |
+| <img src=images/010-shutdown.jpg  width="100%"/> |
 |:--|
 | *Navigate to **Main Menu** and select **Reboot** or **Shutdown** This depends on how much energy you have left* |
 
@@ -150,7 +151,7 @@ With the Raspberry Pi booted and running Lakka, we will now be moving some files
 > Open your Terminal App
 
 Grab this repo
-```
+```shell
 $ git clone https://github.com/32teeth/GabozePocaioLakka.git 
 ```
 
@@ -161,8 +162,9 @@ Some files are for reference, some are required, but we figured we give you the 
 
 First, you will need to know the IP address of your Raspberry Pi
 *Here's a polite reminder from before*
-| <img src=images/008-information.jpg  width="350px"/> | <img src=images/008-information-network.jpg  width="350px"/> |<img src=images/008-information-network-interface.jpg  width="350px"/> |
-|:--|:--|
+
+| <img src=images/008-information.jpg  width="33%"/> | <img src=images/008-information-network.jpg  width="33%"/> |<img src=images/008-information-network-interface.jpg  width="33%"/> |
+|:--|:--|:--|
 | *Navigate back to the **Main Menu** and Select **Configurations*** | *Select **Network Information*** | *Any connections will be listed here* |
 
 The *user:password* combo for all *vanilla* [Lakka](http://www.lakka.tv/) builds is **root:root**
@@ -170,15 +172,28 @@ The *user:password* combo for all *vanilla* [Lakka](http://www.lakka.tv/) builds
 You will be moving the **retrogame** and **tft** folders to [Lakka](http://www.lakka.tv/) */storage* folder
 
 #### SCP
+##### Backgrounds
+> Background Images for Lakka
+```shell
+$ scp -r ~/[path_to_where_you_cloned_the_repo]/backgrounds root@[ip_of_your_raspberry_pi]:
 ```
-# backgrounds
-scp -r ~/[path_to_where_you_cloned_the_repo]/backgrounds root@[ip_of_your_raspberry_pi]:
-# retrogame
-scp -r ~/[path_to_where_you_cloned_the_repo]/retrogame root@[ip_of_your_raspberry_pi]:
-# tft
-scp -r ~/[path_to_where_you_cloned_the_repo]/tft root@[ip_of_your_raspberry_pi]:
-# retroarch
-scp ~/[path_to_where_you_cloned_the_repo]/retroarch/retroarch.cfg root@[ip_of_your_raspberry_pi]:.config/retroarch
+
+##### Retro Game
+> Retrogame Service and Config
+```shell
+$ scp -r ~/[path_to_where_you_cloned_the_repo]/retrogame root@[ip_of_your_raspberry_pi]:
+```
+
+##### Displays
+> ILI9341/2 Display Drivers
+```shell
+$ scp -r ~/[path_to_where_you_cloned_the_repo]/tft root@[ip_of_your_raspberry_pi]:
+```
+
+##### Retroarch
+> Retroarch Configuration 
+```shell
+$ scp ~/[path_to_where_you_cloned_the_repo]/retroarch/retroarch.cfg root@[ip_of_your_raspberry_pi]:.config/retroarch
 ```
 
 #### FTP
@@ -187,35 +202,41 @@ Login into the IP address using
 *password*:**root**
 
 Drag and drop **retrogame** and **tft** folders into the */storage* folder
+Drag and drop **retroarch.cfg** into */storage* folder
 
+## SSH
+> Back to your computer
 
+Now with all the above items in place, it's time to edit a few *files* and *create commands*
 
+In your terminal applications, **SSH** into the pi, the password is *root*
 
+| <img src=images/ssh-001.jpg  width="50%"/> | <img src=images/ssh-002.jpg  width="50%"/> |
+|:--:|:--:|
+| *ssh* |  *password* |
 
--------------
-
-
-
-* Move tft folder to /storage
-* ssh in
-```
-cd tft
-chmod 777 ILI9341
-chmod 777 ILI9342
-```
-* test
-```
-cd
-tft/ILI9341
-tft/ILI9342
-```
-ctrl+c to exit
-* make it boot
-```
-nano /storage/.config/autostart.sh
+```shell
+$ ssh root@[ip_address]
 ```
 
+By default, you will be enter into the */storage* folder.
+
+### Change access permissions to the *display drivers*
+```shell
+$ chmod 777 tft/ILI9341 tft/ILI9342
 ```
+
+### Change access permissions to *retrogame*
+```shell
+$ chmod 777 -R retrogame
+```
+
+### Create an autostart script
+```shell
+$ nano /storage/.config/autostart.sh
+```
+* Paste the below block
+```shell
 # Uncomment appropriate line
 #/storage/tft/ILI9341 & # 2.4" TFT
 #/storage/tft/ILI9342 & # 2.6" TFT
@@ -223,22 +244,61 @@ nano /storage/.config/autostart.sh
 # Keyboard GPIO
 /storage/retrogame/retrogame &
 ```
-ctrl+x
-y
+* [ ] uncomment the ILI9341 line if you have an original **Gaboze Pocaio** with a 2.4" screen
+* [ ] uncomment the ILI9342 line if you have built a **Gaboze Pocaio *Plus*** with a 2.6" screen
 
+```shell
+# Uncomment appropriate line
+#/storage/tft/ILI9341 & # 2.4" TFT
+/storage/tft/ILI9342 & # 2.6" TFT
+
+# Keyboard GPIO
+/storage/retrogame/retrogame &
 ```
-reboot now
+Now hit *ctrl+x* and hit *y*
+
+### Update the Rules
+
+Create a rules file
+```shell
+nano /etc/udev/rules.d/10-retrogame.rules
 ```
 
-```
-shutdown now
+Paste This
+```shell
+SUBSYSTEM=="input", ATTRS{name}=="retrogame", ENV{ID_INPUT_KEYBOARD}="1"
 ```
 
-mount sd
-* Move pwm-audio-pi-zero-overlay.dtbo folder to /flash/overlays
+Hit *ctrl+x* and hit *y*
 
-config.txt
+## Home Stretch
+> Time to shutdown and edit the main *config*
+
+Your SSH session should still be open on your desktop.
+
+* Shutdown
+```shell
+$ shutdown now
 ```
+
+Once the Raspberry Pi has fully shutdown (no activity light blinking)
+* [ ] Pull out the SD Card
+* [ ] Mount the SD Card on your computer
+
+Once the SD Card mounts onto your computer you will see a directory called *overlays*
+Drag and drop the file named **pwm-audio-pi-zero-overlay.dtbo** into that directory (it's in the repo you downloaded)
+
+Once that is done, find the file named **config.txt** located in the root of the SD Card
+Open that file with your favorite text editor and after the lines
+
+```shell
+################################################################################
+# End of default configuration
+################################################################################
+```
+
+Paste this
+```shell
 ################################################################################
 # 2.6 ILI9342
 # 2.4 ILI9341
@@ -256,15 +316,7 @@ dtparam=audio=on
 dtoverlay=pwm-audio-pi-zero-overlay
 ```
 
-mount
-move retrogame folder to /storage
-
-* ssh in
-```
-nano /etc/udev/rules.d/10-retrogame.rules
-SUBSYSTEM=="input", ATTRS{name}=="retrogame", ENV{ID_INPUT_KEYBOARD}="1"
-```
-
-cd ../retrogame/
-
-
+* Eject the SD Card
+* Put it back in the Pi
+* Boot the Pi 
+* Enjoy the fruits of your labor!
