@@ -47,7 +47,7 @@ You also get to learn a few things here and there ;)
 ## Available for
 > But Not Limited To
 
-| <img src=images/gaboze.jpg/> |<img src=images/gabozeplus.jpg/> |<img src=images/gabozepia.jpg/> |
+| <img src=images/pocaio.jpg/> |<img src=images/pocaioplus.jpg/> |<img src=images/pocaiopia.jpg/> |
 |:--:|:--:|:--:|
 | *Gaboze Pocaio* | *Gaboze Pocaio Plus* | *Gaboze Pocaio ???* |
 
