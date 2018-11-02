@@ -304,7 +304,7 @@ Hit *ctrl+x* and hit *y*
 
 Your SSH session should still be open on your desktop.
 
-| <img src=images/ssh-011.jpg/> |< img src=images/ssh-012.jpg/> |
+| <img src=images/ssh-011.jpg/> |<img src=images/ssh-012.jpg/> |
 |:--:|:--:|
 | *back to shell* | *shutdown* |
 
