@@ -29,7 +29,7 @@ The ILI9341is typically available from 2.2" to 3.2" whereas the ILI9342 comes in
 > Things you need...
 
 * [ ] A fresh copy of [Lakka](http://www.lakka.tv/get/)
-* [ ] Raspberry Pi Model *(Zero, Zero W, Zero WH)*	
+* [ ] Raspberry Pi Model *(Zero, Zero W, Zero WH)*
 * [ ] Micro SD Card *(Even as small as 1GB)*
 * [ ] A host computer to burn your Micro SD
 * [ ] Software to burn your Micro SD with *(List of Options Below, in **Ease of Use** Order)*
@@ -162,7 +162,7 @@ With the Raspberry Pi booted and running Lakka, we will now be moving some files
 
 Grab this repo
 ```shell
-$ git clone https://github.com/32teeth/GabozePocaioLakka.git 
+$ git clone https://github.com/32teeth/Lakka-For-Gaboze-Pocaio.git
 ```
 
 Some files are for reference, some are required, but we figured we give you the whole picture of what will be going one next.
@@ -201,7 +201,7 @@ $ scp -r ~/[path_to_where_you_cloned_the_repo]/tft root@[ip_of_your_raspberry_pi
 ```
 
 ##### Retroarch
-> Retroarch Configuration 
+> Retroarch Configuration
 ```shell
 $ scp ~/[path_to_where_you_cloned_the_repo]/retroarch/retroarch.cfg root@[ip_of_your_raspberry_pi]:.config/retroarch
 ```
@@ -357,5 +357,5 @@ dtoverlay=pwm-audio-pi-zero-overlay
 
 * Eject the SD Card
 * Put it back in the Pi
-* Boot the Pi 
+* Boot the Pi
 * Enjoy the fruits of your labor!
