@@ -2,9 +2,12 @@
 > Interested in running [Lakka](http://www.lakka.tv/) on your small screen TFT?
 > Look No Further, and Follow Along!
 
+![lakka gui](images/lakka.gif)
+
 ## Project Overview
 
 [Lakka](http://www.lakka.tv/) is a lightweight Linux distribution that transforms a small computer into a full blown retrogaming console. It is the official Linux distribution of RetroArch and the libretro ecosystem.
+
 
 Enable wide audience to run [Lakka](http://www.lakka.tv/) on their [Gaboze Pocaio](https://github.com/GameboyZero/GabozePocaio) *(Game Boy Pocket All In One)* Device.
 
